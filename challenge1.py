@@ -23,3 +23,5 @@ for i in ssplit:
         v8 += 1
     elif number_transformed == 9:
         v9 += 1
+    if v0 >= 2:
+        print(number_transformed * ((v0 - 1) * number_transformed))
